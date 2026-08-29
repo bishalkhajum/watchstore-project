@@ -1,0 +1,122 @@
+# ============================================================
+# Watchstore Project - Global/Root Git Ignore
+# ============================================================
+
+# ---------- Environment / Secrets ----------
+
+.env
+.env.*
+!.env.example
+
+# Backend local environment file
+dev-env.sh
+
+# Allow backend environment template
+!dev-env.example.sh
+
+
+# ---------- Operating System ----------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+
+# ---------- IDE / Editors ----------
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# VS Code local history
+.history/
+
+
+# ---------- Logs ----------
+*.log
+logs/
+
+
+# ---------- Temporary Files ----------
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+
+# ---------- Node / Frontend ----------
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# npm debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+
+# ---------- Java / Spring Boot / Backend ----------
+# Maven
+target/
+
+# Gradle (if used in the future)
+.gradle/
+build/
+
+# Java compiled files
+*.class# Never commit real environment files or local secret scripts
+
+# Spring Boot generated files
+*.jar
+*.war
+
+
+# ---------- Test / Coverage ----------
+coverage/
+.nyc_output/
+
+
+# ---------- Local Database / Runtime Files ----------
+*.sqlite
+*.sqlite3
+
+# H2 database files
+*.mv.db
+*.trace.db
+
+
+# ---------- OS / Tool Specific ----------
+.fseventsd
+.project
+.classpath
+.settings/
+
+
+# ---------- Security / Certificates ----------
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+
+# ---------- Local configuration ----------
+application-local.properties
+application-local.yml
+application-local.yaml
