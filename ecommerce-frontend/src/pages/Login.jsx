@@ -45,9 +45,9 @@ export default function Login() {
         <p style={{ marginTop: 16, fontSize: 14 }}>
           No account? <Link to="/register">Sign up</Link>
         </p>
-        <p style={{ marginTop: 8, fontSize: 12, color: '#6b7280' }}>
+        {/* <p style={{ marginTop: 8, fontSize: 12, color: '#6b7280' }}>
           Admin demo login: admin@watchstore.com / admin123
-        </p>
+        </p> */}
       </div>
     </div>
   );
